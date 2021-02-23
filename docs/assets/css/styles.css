@@ -20,7 +20,7 @@ nav {
 }
 
 body {
-  background: url(/assets/img/clapboard-wall.jpg?h=142534af8d4858cbcd4b751b7ba716f3);
+  background: url(./assets/img/clapboard-wall.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -78,7 +78,7 @@ body {
 }
 
 .photo-gallery {
-  background: url(/assets/img/light-brown-wooden-textured-background.jpg?h=a5a87be50873b454d331419dfaea0ac5);
+  background: url(./assets/img/light-brown-wooden-textured-background.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
