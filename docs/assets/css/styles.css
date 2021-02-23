@@ -1,0 +1,233 @@
+.jumbotron {
+  text-align: center;
+  background: #800000;
+  background-position: center;
+  background-size: cover;
+  max-width: 80%;
+  margin: auto;
+  border-radius: 60px;
+  margin-top: 30px;
+}
+
+.jumbotron p {
+  font-size: 22px;
+  background: rgba(0,0,0,0.3);
+  color: white;
+}
+
+nav {
+  background: #515151;
+}
+
+body {
+  background: url(/assets/img/clapboard-wall.jpg?h=142534af8d4858cbcd4b751b7ba716f3);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.vec .vector {
+  width: 80%;
+}
+
+@media (max-width: 980px) {
+  .vec .vector {
+    width: 35%;
+    height: auto;
+  }
+}
+
+.vec {
+  text-align: center;
+  padding-bottom: 6px;
+}
+
+@media (max-width: 978px) {
+  .vec .vector {
+    width: 50%;
+  }
+}
+
+.vec p {
+  margin-left: 30px;
+  color: white;
+  font-size: 20px;
+}
+
+.vec h2 {
+  padding-top: 100px;
+  color: rgb(254,249,224);
+}
+
+#navcol-1 a {
+  color: white;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+}
+
+#titulomenu {
+  text-align: center;
+}
+
+#menutitle {
+  width: 100%;
+  height: auto;
+}
+
+.photo-gallery {
+  background: url(/assets/img/light-brown-wooden-textured-background.jpg?h=a5a87be50873b454d331419dfaea0ac5);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 1600px;
+  margin: auto;
+  border-radius: 60px;
+}
+
+/* background-colo:#e6c691; */
+
+.titlemenu {
+  width: 60%;
+  padding-top: 30px;
+  transform: translate3d(0,-30%,0);
+  animation: levitar 3s ease-in-out infinite alternate;
+}
+
+@keyframes levitar {
+  100% {
+    transform: translate3d(0,-22%,0);
+  }
+}
+
+.intro {
+  text-align: center;
+  padding-bottom: 0px;
+}
+
+.bottar {
+  color: rgb(255,255,255);
+  background: rgba(0,0,0,0.2);
+  border: white 2px solid;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 30px;
+  padding-left: 50px;
+  cursor: pointer;
+  padding-right: 50px;
+  margin-top: 40px;
+}
+
+.vec #about {
+  padding-top: 30px;
+}
+
+@media (max-width: 978px) {
+  .vec #about {
+    padding-top: 0px;
+  }
+}
+
+.vec #ubi {
+  padding-top: 30px;
+}
+
+.vec .titles {
+  width: 50%;
+  height: auto;
+}
+
+@media (max-width: 980px) {
+  .vec .titles {
+    width: 40%;
+    height: auto;
+  }
+}
+
+.vec .titlesinfo {
+  width: 50%;
+  height: auto;
+}
+
+@media (max-width: 980px) {
+  .vec .titlesinfo {
+    width: 40%;
+    height: auto;
+  }
+}
+
+.vec .infoflex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 900px) {
+  .vec .row .infoflex {
+    border: 3px #800000 solid;
+    padding: 10px;
+  }
+}
+
+.vec .titleacercade {
+  width: 50%;
+  height: auto;
+  padding-top: 30px;
+}
+
+@media (max-width: 980px) {
+  .vec .titleacercade {
+    width: 40%;
+    padding-top: 10px;
+    height: auto;
+  }
+}
+
+@media (max-width: 955px) {
+  .vec iframe {
+    width: 40%;
+    height: 200px;
+  }
+}
+
+@media (max-width: 1399px) {
+  .vec iframe {
+    width: 60%;
+    height: 300px;
+  }
+}
+
+.casas .casa {
+  width: 60%;
+}
+
+.casas {
+  padding: 30px 10px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .casas #c3 {
+    padding-top: 30px;
+  }
+}
+
+.logop {
+  width: 200px;
+  height: auto;
+}
+
+@media (max-width: 992px) {
+  .logop {
+    width: 100px;
+    height: auto;
+  }
+}
+
+.vec p {
+  background: rgba(0,0,0,0.2);
+  border-radius: 30px;
+}
+
